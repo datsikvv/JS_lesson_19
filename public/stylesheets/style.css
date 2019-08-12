@@ -1,0 +1,95 @@
+body {
+  padding: 0px;
+  margin: 0px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+
+.logo {
+	height: 50px;
+	padding: 0px;
+	margin-left: 70px;
+}
+
+.error {
+	width: 100%;
+}
+
+.container {
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+}
+
+.ground {
+	width: 100%;
+}
+.wrapp {
+	display: flex;
+	justify-content: center;
+	margin: 10px;
+}
+.wrapper {
+	border: 2px solid #e6e6e6;
+    width: 700px;
+    padding: 30px;
+    border-radius: 18px;
+}
+
+
+
+
+
+.logofoot {
+	height: 60px;
+	padding: 0px;
+}
+
+
+
+
+.footer {
+min-height: 140px; 
+background-color: #e8e8e8;
+
+}
+
+
+.footer-logo {
+	height: 100px;
+	display: flex;
+	justify-content:center;
+	border-bottom: 1px solid #ebebeb;
+
+}
+
+.footer-logo a {
+		margin: 50px 0px;
+}
+
+.footer-contact {
+		display: flex;
+	justify-content:center;
+	flex-wrap: wrap;
+	border-bottom: 1px solid #ebebeb;
+}
+
+.footer-contact i {
+	padding: 24px 26px;
+	color: #777777;
+	
+}
+.copyright{
+	display: flex;
+	justify-content:center;
+}
+.copyright .author i {
+	color: #777777;
+
+}
+.author{
+	margin-top: 37px;
+}
