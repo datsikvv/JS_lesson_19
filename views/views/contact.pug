@@ -1,0 +1,15 @@
+extends layout
+
+block content
+  h1 Contact us
+  div.wrapp
+    div.wrapper
+      form.form-group(method='post')
+        i.fa.fa-user.text-info
+        input#name.form-control.form-group(type='text' name='name' placeholder='Name' required='')
+        i.fa.fa-envelope.text-info
+        input#name.form-control.form-group(type='email' name='email' placeholder='example@gmail.com' required='')
+        i.fa.fa-comment.text-info
+        textarea.form-control(placeholder='Write your message' name='text' id='text' required='')
+        input.btn.btn-info.btn-block.rounded-0.py-2(type='submit' value='Send')
+
