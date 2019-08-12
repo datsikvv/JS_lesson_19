@@ -10,7 +10,6 @@ const nodemailer = require('nodemailer');
 // var usersRouter = require('./routes/users');
 
 let app = express();
-let recipient = 'datsikvv@gmail.com';
 
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
@@ -27,7 +26,7 @@ app.use(express.static(__dirname + '/node_modules/bootstrap/dist'));
 // app.use('/', indexRouter);
 // app.use('/users', usersRouter);
 
-app.get('/home', (req, res) => {
+app.get('/', (req, res) => {
   res.render('index', {title: 'Home'});
 });
 
