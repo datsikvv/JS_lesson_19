@@ -51,7 +51,7 @@ app.post('/contact', function (req, res) {
   let mailOptions = {
   from: 'datsyk.edu@gmail.com',
   to: req.body.email,   //Отправка на почту введенную в форме, поле email
-  subject: 'req.body.name',  // в теме имя с формы поле name
+  subject: req.body.name,  // в теме имя с формы поле name
   text: req.body.text     // берем сообщение  c textarea
   }
 
